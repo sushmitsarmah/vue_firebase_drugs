@@ -35,7 +35,7 @@
                             <div class="column is-half-desktop is-half-mobile">
                                 <p>Drugs:</p>
                                 <div class="box has-background-success is-shadowless">
-                                    <p v-for="(drugname, index) in sg_drugnames" :key="index">
+                                    <p class="suggestion-name" v-for="(drugname, index) in sg_drugnames" :key="index" v-on:click="name = drugname">
                                         {{drugname}}
                                     </p>
                                 </div>
@@ -43,7 +43,7 @@
                             <div class="column is-half-desktop is-half-mobile">
                                 <p>Mechanisms:</p>
                                 <div class="box has-background-success is-shadowless ">
-                                    <p v-for="(mechanism, index) in sg_mechanisms" :key="index">
+                                    <p class="suggestion-name" v-for="(mechanism, index) in sg_mechanisms" :key="index" v-on:click="name = mechanism">
                                         {{mechanism}}
                                     </p>
                                 </div>
@@ -82,6 +82,7 @@
 <script>
 
 const API = 'https://us-central1-john1987-fd8fe.cloudfunctions.net/api';
+// const API = 'http://localhost:3000';
 
 export default {
     name: 'Search',
@@ -167,4 +168,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.suggestion-name {
+    cursor: pointer;
+}
 </style>
