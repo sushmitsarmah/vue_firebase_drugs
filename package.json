@@ -7,7 +7,11 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "axios": "^0.18.0",
+    "buefy": "^0.7.0",
+    "vue": "^2.5.17",
+    "vue-axios": "^2.1.4",
+    "vue-lodash": "^2.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",

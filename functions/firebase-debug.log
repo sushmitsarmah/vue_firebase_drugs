@@ -1,0 +1,13 @@
+[debug] [2018-10-22T22:25:37.882Z] ----------------------------------------------------------------------
+[debug] [2018-10-22T22:25:37.885Z] Command:       /Users/sushmitsarmah/.nvm/versions/node/v10.7.0/bin/node /Users/sushmitsarmah/.nvm/versions/node/v10.7.0/bin/firebase deploy --only functions
+[debug] [2018-10-22T22:25:37.885Z] CLI Version:   5.1.1
+[debug] [2018-10-22T22:25:37.885Z] Platform:      darwin
+[debug] [2018-10-22T22:25:37.885Z] Node Version:  v10.7.0
+[debug] [2018-10-22T22:25:37.886Z] Time:          Tue Oct 23 2018 03:55:37 GMT+0530 (India Standard Time)
+[debug] [2018-10-22T22:25:37.886Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-22T22:25:37.905Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-22T22:25:37.906Z] > authorizing via signed-in user
+[debug] [2018-10-22T22:25:37.906Z] [iam] checking project john1987-fd8fe for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2018-10-22T22:25:37.908Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/john1987-fd8fe:testIamPermissions  
+
